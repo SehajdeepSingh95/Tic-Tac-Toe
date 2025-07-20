@@ -37,7 +37,7 @@ body {
   background-color: wheat;
 }
 
-#reset-btn {
+#reset-btn, #new-match-btn{
   padding: 1rem;
   font-size: 1.25rem;
   background-color: #191913;
@@ -87,4 +87,25 @@ body {
 
 #reset-btn:active{
     opacity: 0.3;
+}
+
+.score {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60vmin;
+  margin: 1rem auto;
+  padding: 0.5rem 1rem;
+  background-color: #fff3cd;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
+
+.player-1,
+.player-2 {
+  width: 50%;
+  text-align: center;
 }
